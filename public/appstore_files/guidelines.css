@@ -1,0 +1,953 @@
+.section-content.divider-bottom {
+	padding-bottom: 4em;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+body[data-color-scheme="dark"] .callout {
+	background-color: #f5f5f7;
+	border-color: rgba(0, 0, 0, 0);
+	color: #1d1d1f;
+	border-color: transparent;
+	background-color: #f5f5f7;
+	box-shadow: 0 0 1px 0 transparent inset, 0 0 1px 0 transparent;
+}
+
+h3,
+h2 + h3 {
+	margin-top: 1.4em;
+}
+
+h4 {
+	margin-top: 1.6em;
+}
+
+.hero-nav {
+	margin-top: 4em;
+	margin-left: 0;
+	text-align: center;
+}
+
+.hero-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 2em;
+	color: #000;
+}
+
+.hero-nav li:first-of-type {
+	margin-left: 0;
+}
+
+.hero-nav a {
+	display: inline-block;
+	color: #000;
+}
+
+.hero-nav a:hover {
+	color: #0070c9;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.hero-nav a:focus {
+	outline: none;
+}
+
+.hero-nav figure {
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 735px) {
+	.mobile-margin-bottom {
+		margin-bottom: 1.5em;
+	}
+}
+
+.standards-keyline-vertical {
+	float: left;
+	margin-top: 5.75em;
+	margin-left: 10px;
+	border-left: 1px solid blue;
+	padding-left: 5px;
+	height: 300px;
+}
+
+.icon-checkcircle::before {
+	top: 0;
+	padding-right: 0;
+	color: #007d1b;
+	font-size: 1.5em;
+}
+.icon-resetcircle::before {
+	top: 0;
+	padding-right: 0;
+	color: #ee0000;
+	font-size: 1.5em;
+}
+
+.icon-checkcircle.align-custom::before,
+.icon-resetcircle.align-custom::before {
+	display: block;
+}
+
+.align-custom-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.align-custom {
+	height: 0;
+}
+
+.row-product-examples {
+	margin-top: 4em;
+}
+
+.row-product-examples .icon-checkcircle::before {
+	top: -38px;
+}
+.row-product-examples .icon-resetcircle::before {
+	top: -33px;
+}
+
+.row-downloads .callout {
+	padding: 1.5em 1em;
+}
+
+.row-downloads .callout img {
+	display: block;
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section-badges .row-downloads .callout picture img {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 1em;
+}
+
+@media only screen and (max-width: 735px) {
+	.section-badges .row-downloads .callout picture img {
+		margin-top: 1em;
+	}
+}
+
+.section-badges .row-downloads .callout .card-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-badges .row-downloads .callout img {
+	margin-bottom: 0.75em;
+}
+
+.row-badge-examples .callout {
+	padding: 1em;
+}
+
+.row-badge-examples .callout h2,
+.row-badge-examples .callout h3,
+.row-badge-examples .callout h4 {
+	text-align: center;
+}
+
+.row-badge-examples .callout h3 {
+	margin-top: 1em;
+}
+
+.row-badge-examples .callout figure {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row-badge-examples .callout.example-yes {
+	margin-right: 0.75em;
+	height: 600px;
+}
+
+.row-badge-examples .callout.example-no {
+	margin-left: 0.75em;
+}
+
+.row-badge-examples .callout.example-no:last-of-type {
+	margin-top: 1.5em;
+}
+
+.row-homescreen-examples {
+	margin-top: 2em;
+}
+
+.row-homescreen-examples .icon-checkcircle::before,
+.row-homescreen-examples .icon-resetcircle::before {
+	top: -16px;
+	left: calc(50% - 14px);
+}
+
+@media only screen and (max-width: 735px) {
+	.row-badge-examples .callout {
+		margin-top: 1.5em;
+	}
+}
+
+#appStoreMarketingGuidelines .sidebar h4.divider-top {
+	margin-top: 3.5em;
+	padding-top: 1.5em;
+}
+
+#appStoreMarketingGuidelines .sidebar h4.divider-top.section-top {
+	margin-top: 4.5em;
+}
+
+#appStoreMarketingGuidelines .sidebar h4.divider-top.lift {
+	margin-top: -25em;
+}
+
+.section-legal ul {
+	list-style-type: none;
+}
+
+#appStoreMarketingGuidelines .section-products .inner,
+#appStoreMarketingGuidelines .section-badges .inner {
+	opacity: 0.3;
+	max-height: 0;
+	margin-top: 0;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#appStoreMarketingGuidelines .section-products .inner a span,
+#appStoreMarketingGuidelines .section-badges .inner a span {
+	display: block;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #000;
+}
+
+#appStoreMarketingGuidelines .section-products .inner,
+#appStoreMarketingGuidelines .section-badges .inner {
+	opacity: 1;
+	max-height: 10000px;
+	margin-bottom: 2em;
+}
+
+#appStoreMarketingGuidelines .section-products .inner a:hover,
+#appStoreMarketingGuidelines .section-badges .inner a:hover {
+	text-decoration: none;
+}
+
+#appStoreMarketingGuidelines .section-products .inner a:focus,
+#appStoreMarketingGuidelines .section-badges .inner a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+/* overlay styles */
+#appStoreMarketingGuidelines .agreement-overlay {
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: auto;
+	margin-left: -300px;
+	margin-top: -400px;
+}
+
+#appStoreMarketingGuidelines .agreement-overlay-dimmer {
+	position: fixed;
+}
+
+#appStoreMarketingGuidelines .agreement-overlay h5 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#appStoreMarketingGuidelines .form-box {
+	border: 1px solid transparent;
+	background: #f2f2f2;
+	padding: 0.75em 1em 0.75em;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+}
+
+#appStoreMarketingGuidelines .agreement-overlay form label {
+	font-size: 15px;
+}
+
+#appStoreMarketingGuidelines .form-box span.error {
+	display: block;
+	margin-top: 0.24em;
+	margin-left: 1.65em;
+	font-size: 12px;
+	color: red;
+}
+
+#appStoreMarketingGuidelines .form-box .label:not(.error) + span.error {
+	display: none;
+}
+
+/* form buttons */
+#appStoreMarketingGuidelines .buttons {
+	overflow: auto;
+	text-align: right;
+}
+
+#appStoreMarketingGuidelines .buttons .button {
+	overflow: auto;
+	float: none;
+	vertical-align: middle;
+	display: inline-block;
+	height: auto;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 1.2em 1em 1.24em;
+	font-size: 14px;
+	letter-spacing: -0.01em;
+	font-weight: 400;
+	line-height: 0;
+	text-shadow: none;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	background: #0088cc;
+	background-image: -webkit-linear-gradient(#00a3f5 0%, #0088cc 100%);
+	background-image: -o-linear-gradient(#00a3f5 0%, #0088cc 100%);
+	background-image: linear-gradient(#00a3f5 0%, #0088cc 100%);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+#appStoreMarketingGuidelines .buttons .button:hover {
+	background: #2fa2dc;
+	background: -webkit-linear-gradient(#4ab4e8, #1491d0);
+	background: linear-gradient(#4ab4e8, #1491d0);
+}
+
+#appStoreMarketingGuidelines .buttons .button.button-secondary {
+	background: #cccccc;
+	background-image: -webkit-linear-gradient(top, #cccccc 0%, #bbbbbb 100%);
+	background-image: linear-gradient(to bottom, #cccccc 0%, #bbbbbb 100%);
+}
+
+#appStoreMarketingGuidelines .buttons .button.button-secondary:hover {
+	background-color: #c7c7c7;
+	background-image: none;
+	text-decoration: none;
+}
+
+/* resource downloads */
+#appStoreMarketingGuidelines .expandable .inner a[data-agreement-id] {
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: inline-block;
+	bottom: auto;
+}
+
+#appStoreMarketingGuidelines .expandable .inner a[data-agreement-id]:hover img {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 735px) {
+	#appStoreMarketingGuidelines .agreement-overlay {
+		top: 0;
+		left: 0;
+		margin-left: 0;
+		margin-top: 0;
+		padding: 1em;
+		width: 100%;
+	}
+}
+
+/* ========== Images ========== */
+/* nav */
+.nav-icon {
+	margin-right: auto;
+	margin-left: auto;
+	width: 75px;
+	height: 40px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.nav-icon-badges {
+	background-image: url("/app-store/marketing/guidelines/images/nav-icon-badge.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.nav-icon-badges {
+		background-image: url("/app-store/marketing/guidelines/images/nav-icon-badge_2x.png");
+	}
+}
+
+.nav-icon-products {
+	background-image: url("/app-store/marketing/guidelines/images/nav-icon-product.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.nav-icon-products {
+		background-image: url("/app-store/marketing/guidelines/images/nav-icon-product_2x.png");
+	}
+}
+
+.nav-icon-photography {
+	background-image: url("/app-store/marketing/guidelines/images/nav-icon-photography.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.nav-icon-photography {
+		background-image: url("/app-store/marketing/guidelines/images/nav-icon-photography_2x.png");
+	}
+}
+
+.nav-icon-messaging {
+	background-image: url("/app-store/marketing/guidelines/images/nav-icon-editorial.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.nav-icon-messaging {
+		background-image: url("/app-store/marketing/guidelines/images/nav-icon-editorial_2x.png");
+	}
+}
+
+.nav-icon-legal {
+	background-image: url("/app-store/marketing/guidelines/images/nav-icon-sosumi.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.nav-icon-legal {
+		background-image: url("/app-store/marketing/guidelines/images/nav-icon-sosumi_2x.png");
+	}
+}
+
+/* other */
+.image-badge {
+	display: block;
+	margin-top: 3.5em;
+	width: 160px;
+	height: 54px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.badge-preferred {
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-preferred.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.badge-preferred {
+		background-image: url("/app-store/marketing/guidelines/images/badge-example-preferred_2x.png");
+	}
+}
+.badge-alternate {
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-alternate.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.badge-alternate {
+		background-image: url("/app-store/marketing/guidelines/images/badge-example-alternate_2x.png");
+	}
+}
+.badge-localized {
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-localized.png");
+	width: 160px;
+	height: 47px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.badge-localized {
+		background-image: url("/app-store/marketing/guidelines/images/badge-example-localized_2x.png");
+	}
+}
+
+.image-minimum-spacing {
+	margin-top: 4.5em;
+	width: 170px;
+	height: 70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-spacing.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-minimum-spacing {
+		background-image: url("/app-store/marketing/guidelines/images/badge-example-spacing_2x.png");
+	}
+}
+.image-minimum-spacing + figcaption {
+	padding-left: 10px;
+}
+
+.image-mobile-spacing {
+	margin-top: 3em;
+	width: 165px;
+	height: 70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-mobile.png");
+}
+.image-mobile-spacing {
+	background-image: url("/app-store/marketing/guidelines/images/badge-example-mobile_2x.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-mobile-spacing + figcaption {
+		padding-left: 18px;
+		margin-top: -15px;
+	}
+}
+
+.image-example-apple-watch {
+	margin-top: 3em;
+	width: 120px;
+	height: 215px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/badge-sample-yes.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-example-apple-watch {
+		background-image: url("/app-store/marketing/guidelines/images/badge-sample-yes_2x.png");
+	}
+}
+
+.image-badge-example-preorder {
+	margin-top: 3em;
+	width: 160px;
+	height: 54px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/badge-pre-order-on-the-app-store.svg");
+}
+
+.image-badge-example-no-1 {
+	margin-top: 3em;
+	width: 172px;
+	height: 144px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/badge-sample-no-1.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-badge-example-no-1 {
+		background-image: url("/app-store/marketing/guidelines/images/badge-sample-no-1_2x.png");
+	}
+}
+
+.image-example-no-2 {
+	margin-top: 3em;
+	width: 126px;
+	height: 201px;
+	background-size: 126px 212px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url("/app-store/marketing/guidelines/images/badge-sample-no-2.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-badge-example-no-2 {
+		background-image: url("/app-store/marketing/guidelines/images/badge-sample-no-2_2x.png");
+	}
+}
+
+.image-products-example-large {
+	width: 512px;
+	height: 487px;
+	background-repeat: no-repeat;
+	background-size: 512px 487px;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/products-example-large.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-products-example-large {
+		background-image: url("/app-store/marketing/guidelines/images/products-example-large_2x.png");
+	}
+}
+
+.image-products-example-yes {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 192px;
+	height: 385px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/iphone-sample-yes-01.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-products-example-yes {
+		background-image: url("/app-store/marketing/guidelines/images/iphone-sample-yes-01_2x.png");
+	}
+}
+
+.image-products-example-no {
+	margin-top: -5px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 257px;
+	height: 409px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/iphone-sample-no.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-products-example-no {
+		background-image: url("/app-store/marketing/guidelines/images/iphone-sample-no_2x.png");
+	}
+}
+
+.hardware-wrap-yes,
+.hardware-wrap-no {
+	margin: 1em auto 0;
+}
+
+.device-iphone-x-silver-container .device-screen.homescreen-example {
+	top: 39px;
+	height: 400px;
+}
+:lang(zh-CN).device-iphone-x-silver-container .device-screen.homescreen-example {
+	top: 37px;
+}
+
+.image-homescreen-yes {
+	background-image: url("/app-store/marketing/guidelines/images/screen-home-yes.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-homescreen-yes {
+		background-image: url("/app-store/marketing/guidelines/images/screen-home-yes_2x.jpg");
+	}
+}
+.image-homescreen-no {
+	background-image: url("/app-store/marketing/guidelines/images/screen-home-no.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-homescreen-no {
+		background-image: url("/app-store/marketing/guidelines/images/screen-home-no_2x.jpg");
+	}
+}
+
+.image-products-standards {
+	float: left;
+	margin-top: 5.75em;
+	margin-bottom: 3em;
+	width: 159px;
+	height: 201px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("/app-store/marketing/guidelines/images/min_example.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-products-standards {
+		background-image: url("/app-store/marketing/guidelines/images/min_example_2x.png");
+	}
+}
+
+.image-products-status {
+	margin-right: auto;
+	margin-bottom: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 653px;
+	height: 87px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.products-status-1 {
+	margin-top: 2em;
+	background-image: url("/app-store/marketing/guidelines/images/products-status-1.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.products-status-1 {
+		background-image: url("/app-store/marketing/guidelines/images/products-status-1_2x.jpg");
+	}
+}
+.products-status-2 {
+	background-image: url("/app-store/marketing/guidelines/images/products-status-2.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.products-status-2 {
+		background-image: url("/app-store/marketing/guidelines/images/products-status-2_2x.jpg");
+	}
+}
+.products-status-3 {
+	margin-bottom: 2em;
+	background-image: url("/app-store/marketing/guidelines/images/products-status-3.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.products-status-3 {
+		background-image: url("/app-store/marketing/guidelines/images/products-status-3_2x.jpg");
+	}
+}
+
+.image-custom {
+	display: inline-block;
+	margin-top: 2em;
+	width: 318px;
+	height: 202px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.image-custom:first-of-type {
+	margin-right: 5px;
+}
+.image-custom:last-of-type {
+	margin-left: 5px;
+}
+.photography-custom-1 {
+	background-image: url("/app-store/marketing/guidelines/images/photography-custom-1.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.photography-custom-1 {
+		background-image: url("/app-store/marketing/guidelines/images/photography-custom-1_2x.jpg");
+	}
+}
+
+.photography-custom-2 {
+	background-image: url("/app-store/marketing/guidelines/images/photography-custom-2.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.photography-custom-2 {
+		background-image: url("/app-store/marketing/guidelines/images/photography-custom-2_2x.jpg");
+	}
+}
+
+.image-photography-status {
+	margin-top: 0;
+	margin-bottom: 1em;
+	width: 105px;
+	height: 75px;
+	background-size: 306px 75px;
+	background-repeat: no-repeat;
+	background-position: -184px 0;
+	background-image: url("/app-store/marketing/guidelines/images/photography-status.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.image-photography-status {
+		background-image: url("/app-store/marketing/guidelines/images/photography-status_2x.jpg");
+	}
+}
+
+/* international-links */
+.international-links {
+	margin: 15px 0 -5px;
+	text-align: center;
+}
+
+.international-links a {
+	margin: 0 7px;
+	font-size: 12px !important;
+}
+
+.international-links a.selected {
+	color: #888;
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-hero {
+		width: 280px;
+		height: 387px;
+		background-size: 280px 561px;
+	}
+	.row-badge-examples .callout.example-yes {
+		height: 592px;
+	}
+	.row-badge-examples .sidebar h4.divider-top {
+		margin-top: -30.5em;
+	}
+	#appStoreMarketingGuidelines .expandable h4.expandable-headline a span {
+		padding-top: 4px;
+	}
+	.hero-nav a {
+		font-size: 14px;
+		line-height: 1.5;
+		font-weight: 400;
+		letter-spacing: -0.01em;
+	}
+	.hero-nav li {
+		margin-left: 18px;
+	}
+	.image-products-status {
+		width: 460px;
+		height: 61px;
+	}
+	.image-products-standards {
+		margin-top: 2em;
+		width: 159px;
+		height: 201px;
+	}
+	.standards-keyline-vertical {
+		margin-top: 2em;
+		height: 200px;
+	}
+	.image-custom {
+		width: 223px;
+		height: 142px;
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.image-hero {
+		margin-top: 1em;
+		margin-right: auto;
+		margin-left: auto;
+		height: 561px;
+	}
+	.hero-nav {
+		margin-top: 2em;
+	}
+	.hero-nav li {
+		display: block;
+		margin-left: 0;
+	}
+	#appStoreMarketingGuidelines .expandable h4.expandable-headline a span {
+		padding-top: 0;
+	}
+	.sidebar h4.divider-top,
+	.row-badge-examples .sidebar h4.divider-top {
+		margin-top: 1em;
+	}
+	.row-badge-examples .callout.example-yes {
+		height: 536px;
+	}
+	.row-badge-examples .callout.example-yes {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	.row-badge-examples .callout.example-no {
+		margin-left: 0;
+	}
+	.row-product-examples {
+		margin-top: 0;
+	}
+	.row-product-examples > .column {
+		margin-top: 4em;
+	}
+	.row-homescreen-examples > .column {
+		margin-top: 2em;
+	}
+
+	.hardware-wrap-yes {
+		margin: -1em auto 0;
+	}
+	.hardware-wrap-no {
+		margin: 4em auto 0;
+	}
+	.image-badge {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.image-minimum-spacing {
+		margin-top: 2em;
+	}
+	#appStoreMarketingGuidelines .expandable h4 {
+		font-size: 17px;
+	}
+	#appStoreMarketingGuidelines .expandable .inner {
+		margin-top: 27px;
+	}
+	.row-downloads .callout {
+		padding: 1.5em 1em 1em;
+	}
+	#appStoreMarketingGuidelines .sidebar h4.divider-top.lift {
+		margin-top: 1em;
+	}
+	.image-products-status {
+		width: 280px;
+		height: 37px;
+	}
+	.image-products-example-yes {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.image-products-example-no {
+		margin-top: 1em;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.image-products-example-large {
+		margin-left: -40px;
+	}
+	.image-custom {
+		display: block;
+		width: 280px;
+		height: 178px;
+	}
+	.image-custom:first-of-type,
+	.image-custom:last-of-type {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#appStoreMarketingGuidelines .sidebar h4.divider-top {
+		margin-top: 1em;
+	}
+	#appStoreMarketingGuidelines .sidebar h4.divider-top.section-top {
+		margin-top: 1em;
+	}
+}
+
+/* ========== Grid ========== */
+#main > article {
+	padding-bottom: 3em;
+}
+
+#main section.section {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+#main section.section:first-of-type {
+	padding-top: 4em;
+	padding-bottom: 0;
+	margin-bottom: 3em;
+}
+#main section.section:last-of-type {
+	padding-bottom: 0;
+}
+
+#main section .section-content .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+@media only screen and (max-width: 1068px) {
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 735px) {
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+#main section .section-content .row > .column {
+	padding: 0;
+}
+@media only screen and (max-width: 1068px) {
+	#main section .section-content .row > .column {
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 735px) {
+	#main section .section-content .row > .column {
+		padding: 0;
+	}
+}
+
+.typography-tout,
+.s-caps {
+	display: inline !important;
+	font-size: 17px !important;
+}
